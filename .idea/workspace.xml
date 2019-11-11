@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2973dfa2-fc2e-4b7a-96e3-34be932af64b" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/arithmetic.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/树的搜索.js" beforeDir="false" afterPath="$PROJECT_DIR$/树的搜索.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,32 +19,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/二维数据结构.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3250">
-              <caret line="129" column="28" selection-start-line="129" selection-start-column="28" selection-end-line="129" selection-end-column="28" />
+            <state relative-caret-position="309">
+              <caret line="125" column="1" lean-forward="true" selection-start-line="125" selection-start-column="1" selection-end-line="125" selection-end-column="1" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/二叉搜索树.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1456">
-              <caret line="56" selection-start-line="56" selection-end-line="72" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/二叉树的单旋与双旋.js">
+        <entry file="file://$PROJECT_DIR$/树的搜索.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="140" column="23" lean-forward="true" selection-start-line="140" selection-start-column="23" selection-end-line="140" selection-end-column="23" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="127">
+              <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -75,12 +60,14 @@
         <option value="$PROJECT_DIR$/二叉搜索树.js" />
         <option value="$PROJECT_DIR$/二叉树的单旋.js" />
         <option value="$PROJECT_DIR$/二叉树的单旋与双旋.js" />
+        <option value="$PROJECT_DIR$/树的深度优先搜索.js" />
+        <option value="$PROJECT_DIR$/树的搜索.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-155" />
-    <option name="y" value="39" />
+    <option name="x" value="299" />
+    <option name="y" value="35" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
@@ -90,7 +77,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -102,6 +88,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -124,8 +111,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.树的搜索.js">
     <configuration name="二叉搜索树.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="二叉搜索树.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="树的搜索.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="树的搜索.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="二叉树的单旋与双旋.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/二叉树的单旋与双旋.js" working-dir="$PROJECT_DIR$">
@@ -133,6 +123,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.树的搜索.js" />
         <item itemvalue="Node.js.二叉搜索树.js" />
       </list>
     </recent_temporary>
@@ -151,7 +142,7 @@
       <workItem from="1573005420347" duration="8514000" />
       <workItem from="1573046502133" duration="4592000" />
       <workItem from="1573089670079" duration="599000" />
-      <workItem from="1573377423090" duration="1836000" />
+      <workItem from="1573377423090" duration="4295000" />
     </task>
     <task id="LOCAL-00001" summary="算法学习内容">
       <created>1573011430789</created>
@@ -160,14 +151,21 @@
       <option name="project" value="LOCAL" />
       <updated>1573011430790</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="算法学习内容">
+      <created>1573390429844</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1573390429844</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17852000" />
+    <option name="totallyTimeSpent" value="20311000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="706" y="62" width="1346" height="688" extended-state="0" />
+    <frame x="758" y="73" width="1346" height="688" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
@@ -175,7 +173,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.70454544" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.47537878" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -198,16 +196,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="算法学习内容" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/二维数据结构.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3250">
-          <caret line="129" column="28" selection-start-line="129" selection-start-column="28" selection-end-line="129" selection-end-column="28" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/二叉搜索树.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1456">
@@ -217,11 +205,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/二叉树的单旋与双旋.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="140" column="23" lean-forward="true" selection-start-line="140" selection-start-column="23" selection-end-line="140" selection-end-column="23" />
+        <state relative-caret-position="3510">
+          <caret line="135" column="49" lean-forward="true" selection-start-line="135" selection-start-column="49" selection-end-line="135" selection-end-column="49" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/二维数据结构.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="125" column="1" lean-forward="true" selection-start-line="125" selection-start-column="1" selection-end-line="125" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/树的搜索.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
         </state>
       </provider>
     </entry>

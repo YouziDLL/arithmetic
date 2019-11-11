@@ -1,7 +1,6 @@
 function Node(value) {
     this.value = value;
-    this.left = null;
-    this.right = null;
+    this.childs = [];
 }
 
 var a = new Node('a');
@@ -10,39 +9,39 @@ var c = new Node('c');
 var d = new Node('d');
 var e = new Node('e');
 var f = new Node('f');
-var g = new Node('g');
 
-a.left = c;
-a.right = b;
-c.left = f;
-c.right = g;
-b.left = d;
-b.right = e;
+a.childs.push(b);
+a.childs.push(c);
+a.childs.push(f);
+b.childs.push(d);
+b.childs.push(e);
 
-//深度搜索
+//深度优先搜索
 function deepSearch(root, target) {
     if (root == null) return false;
+    // console.log(root.value);
     if (root.value == target) return true;
-    var left = deepSearch(root.left, target);
-    var right = deepSearch(root.right, target);
-    return left || right;
+    var result = false;
+    for (var i = 0; i < root.childs.length; i++) {
+        result |= deepSearch(root.childs[i], target);
+    }
+    return result ? true : false;
 }
 
-console.log(deepSearch(a, 'f'));
+console.log(deepSearch(a, 'o'));
 
 //广度优先搜索
-function guangdu(rootList, target) {
-    if (rootList == null || rootList.length==0) return false;
-    var childList = [];
-    for (let i = 0; i < rootList.length; i++) {
-        console.log(rootList[i].value);
-        if (rootList[i]!=null && rootList[i].value == target){
+function bfs(roots, target) {
+    if (roots == null || roots.length == 0) return false;
+    var childs = [];
+    for (var i = 0; i < roots.length; i++) {
+        if (roots[i].value == target) {
             return true;
         } else {
-            childList.push(rootList[i].left);
-            childList.push(rootList[i].right);
+            childs = childs.concat(roots[i].childs);
         }
     }
-    return guangdu(childList,target);
+    return bfs(childs, target);
 }
-console.log(guangdu([a],'e'));
+
+// console.log(bfs([a], 't'));
